@@ -45,6 +45,8 @@ if (isset($_SESSION['user_email']) == true) {
                             </div>
                             <input type="submit" name="login" value="Login" class="btn btn-primary">
                         </form>
+
+                        <div class="text-center mt-3 d-block">Belum ada akun? <a href="./register.php">Daftar</a>.</div>
                     </div>
                 </div>
             </div>
